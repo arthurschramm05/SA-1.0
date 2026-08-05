@@ -1,0 +1,59 @@
+.lista-itens {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.item-card {
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #fafafa;
+}
+
+.item-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.quantidade-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.quantidade-controls button,
+.btn-adicionar {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #A7D129;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.quantidade-controls input {
+    width: 50px;
+    padding: 6px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.resumo {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f4f8dc;
+}
+
+.estado-vazio {
+    text-align: center;
+    padding: 20px 0;
+    color: #5A5A5C;
+}

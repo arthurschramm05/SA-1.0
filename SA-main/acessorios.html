@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acessórios - Apex Ride</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleProdutos.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/icones/logo.png" alt="Logo Apex Ride">
+            </div>
+
+            <button class="menu-toggle" type="button" aria-expanded="false">☰</button>
+
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="acessorios.html">Acessórios</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+                <li><a href="empresa.html">Empresa</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section class="produtos">
+
+            <h1>Nossos Acessórios</h1>
+
+            <div class="controles-produtos">
+                <input id="buscar-acessorios" type="text" placeholder="Pesquisar acessório">
+                <select id="ordenar-acessorios">
+                    <option value="padrao">Ordenar</option>
+                    <option value="preco">Preço</option>
+                    <option value="nome">Nome</option>
+                </select>
+            </div>
+
+            <div id="lista-acessorios" class="lista-produtos"></div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>
+            © 2026 Apex Ride - Todos os direitos reservados.
+        </p>
+    </footer>
+
+
+    <script src="js/menu.js"></script>
+    <script src="js/acessorios.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
